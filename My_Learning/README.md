@@ -9,9 +9,11 @@
 
 # To train custom model
 1. download model from roboflow 
-2. download as zip. Extract this file and copy it later to google drive
-3. From google drive, create "construction_model" and extract downloaded files into this directory.
-4. mount google colab to access the drive using this command
+https://universe.roboflow.com/roboflow-universe-projects/construction-site-safety
+
+3. download as zip. Extract this file and copy it later to google drive
+4. From google drive, create "construction_model" and extract downloaded files into this directory.
+5. mount google colab to access the drive using this command
 
 # Google colab link
 https://colab.research.google.com/drive/1xUC9W2tIsSR0qiHSFpfBUqwtX4MbxBGU#scrollTo=lOG1LplnDx99
