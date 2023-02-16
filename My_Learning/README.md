@@ -13,6 +13,10 @@
 3. From google drive, create "construction_model" and extract downloaded files into this directory.
 4. mount google colab to access the drive using this command
 
+# Google colab link
+https://colab.research.google.com/drive/1xUC9W2tIsSR0qiHSFpfBUqwtX4MbxBGU#scrollTo=lOG1LplnDx99
+
+## Mount drive
 from google.colab import drive
 drive.mount('/content/drive')
 
