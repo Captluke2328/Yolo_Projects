@@ -7,10 +7,20 @@ import math
 # cap.set(3, 1280)
 # cap.set(4, 720)
 
-video = r"C:\Users\jlukas\Desktop\My Projects\Yolo_Projects\Videos\ppe-3.mp4"
+# Office Laptop
+#video = r"C:\Users\jlukas\Desktop\My Projects\Yolo_Projects\Videos\ppe-3.mp4"
+
+# Personal PC
+video = r"C:\Users\Lukas\Desktop\My_Projects\Yolo_Projects\Videos\ppe-3.mp4"
+
 cap = cv2.VideoCapture(video)  # For Video
 
-path = r"C:\Users\jlukas\Desktop\My Projects\Yolo_Projects\My_Learning\chapter_4_trained_ppe_checker\model\best.pt"
+# Office Laptop
+# path = r"C:\Users\jlukas\Desktop\My Projects\Yolo_Projects\My_Learning\chapter_4_trained_ppe_checker\model\best.pt"
+
+# Personal PC
+path = r"C:\Users\Lukas\Desktop\My_Projects\Yolo_Projects\My_Learning\chapter_4_trained_ppe_checker\model\best.pt"
+
 model = YOLO(path)
 
 classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone',

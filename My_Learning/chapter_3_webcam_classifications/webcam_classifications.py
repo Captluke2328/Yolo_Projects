@@ -10,7 +10,7 @@ cap.set(4, 720)
 
 path = r"C:\Users\Lukas\Desktop\My_Projects\Yolo_Projects\My_Learning"
 
-model = YOLO(path + "\yolo_model\yolov8n.pt")
+model = YOLO(path + "\yolo_model\yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
